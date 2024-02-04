@@ -1,0 +1,11 @@
+local DiscordLib = loadstring(game:HttpGet"https://raw.githubusercontent.com/dawid-scripts/UI-Libs/main/discord%20lib.txt")()
+local win = DiscordLib:Window("SUCCESSFULLY VERIFIED")
+
+local serv = win:Server("AGREED/VERIFIED", "")
+local SuccessfullyVerifiedChannel = serv:Channel("Verify Your data.")
+
+SuccessfullyVerifiedChannel:Label("SUCCESSFULLY VERIFIED")
+SuccessfullyVerifiedChannel:Label("Take a screenshot of this tab and send it.")
+SuccessfullyVerifiedChannel:Label("Including your full screen")
+SuccessfullyVerifiedChannel:Label("After that, you may rejoin.")
+
