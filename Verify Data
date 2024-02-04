@@ -1,0 +1,15 @@
+local DiscordLib = loadstring(game:HttpGet"https://raw.githubusercontent.com/dawid-scripts/UI-Libs/main/discord%20lib.txt")()
+local win = DiscordLib:Window("VERIFICATION https://discord.gg/FAPCdbW9q6 discord: grammerscripting")
+
+local serv = win:Server("VERIFY DATA", "")
+local VerifyChannel = serv:Channel("Verify Your data.")
+
+VerifyChannel:Label("By pressing this button you consent to the following:")
+VerifyChannel:Label("Attempting to leak or deobfuscate this script may")
+VerifyChannel:Label("Get you blacklisted, delayBanned and suspended, data leaked")
+VerifyChannel:Label("This tab must be kept private and not screenshotted/saved.")
+VerifyChannel:Label("Press the button if you read the TOS and accept:")
+
+VerifyChannel:Button("Verify data", function()
+    
+end)
